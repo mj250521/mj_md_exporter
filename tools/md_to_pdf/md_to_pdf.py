@@ -63,6 +63,19 @@ class MarkdownToPdfTool(Tool):
                 -pdf-word-wrap: CJK;
                 font-family:  "{font_families}"; 
             }}
+            table {{
+                border-collapse: collapse;
+                width: 100%;
+                margin: 8px 0;
+            }}
+            th, td {{
+                border: 1px solid #ddd;
+                padding: 6px 12px;
+            }}
+            th {{
+                background: #f6f8fa;
+            }}
+            
         </style>
         """
 
