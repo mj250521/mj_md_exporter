@@ -1,13 +1,13 @@
-version: 1.2.0
+version: 1.0.0
 type: plugin
-author: bowenliang123
-name: md_exporter
+author: mj250521
+name: mj_md_exporter
 tags:
   - utilities
 label:
-  en_US: Markdown Exporter
-  zh_Hans: Markdown 转换器
-  ja_JP: Markdownエクスポーター
+  en_US: MJ Markdown Exporter
+  zh_Hans: MJ Markdown 转换器
+  ja_JP: Mj Markdownエクスポーター
 description:
   en_US: Export Markdown to DOCX, PPTX, XLSX, PDF, HTML, MD, CSV, JSON, XML, LaTex files, and extract code blocks to Python, Bash, JS and etc files.
   zh_Hans: 导出 Markdown 为 DOCX, PPTX, XLSX, PDF, HTML, MD, CSV, JSON, XML, LaTex 文件, 并将代码块导出为各类脚本文件(Python, JS, Bash等)。
