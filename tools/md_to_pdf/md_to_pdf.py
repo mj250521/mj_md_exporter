@@ -60,23 +60,34 @@ class MarkdownToPdfTool(Tool):
         css_style = f"""
         <style>
             html {{
-                -pdf-word-wrap: CJK;
-                font-family:  "{font_families}"; 
-            }}
-            table {{
-                   border-collapse: collapse;
-                   width: 100%;
-                   margin: 6px 0;
-                   text-align: center; 
-            }}
-            th, td {{
+                   -pdf-word-wrap: CJK;
+                   font-family:  "{font_families}"; 
+               }}
+           table {{
+               border-collapse: collapse;
+               width: 100%;
+               margin: 6px 0;
+               text-align: center; 
+               table-layout: fixed;
+           }}
+           td {{
                border: 1px solid #ddd;
-               padding: 4px 8px;
+               padding: 4px 0;
                vertical-align: middle;
-            }}
-            th {{
+               min-width: 100px; 
+               word-wrap: break-word;
+               overflow-wrap: break-word;
+               text-align: center;
+           }}
+           th {{
+               border: 1px solid #ddd;
+               padding: 4px 0;
+               vertical-align: middle;
+               min-width: 100px; 
                background: #f6f8fa;
-            }}
+               white-space: nowrap;
+               text-align: center;
+           }}
             
         </style>
         """

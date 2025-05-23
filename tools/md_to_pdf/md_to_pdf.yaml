@@ -2,8 +2,8 @@ identity:
   name: md_to_pdf
   author: Bowen Liang
   label:
-    en_US: Markdown to PDF file
-    zh_Hans: Markdown转PDF文件
+    en_US: MJ Markdown to PDF file
+    zh_Hans: MJ Markdown转PDF文件
 description:
   human:
     en_US: A tool for generating PDF file from Markdown text
