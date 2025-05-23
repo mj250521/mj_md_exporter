@@ -1,4 +1,4 @@
-version: 1.0.2
+version: 1.0.3
 type: plugin
 author: mj250521
 name: mj_md_exporter
@@ -22,7 +22,7 @@ plugins:
   tools:
     - provider/md_exporter.yaml
 meta:
-  version: 1.0.2
+  version: 1.0.3
   arch:
     - amd64
     - arm64
