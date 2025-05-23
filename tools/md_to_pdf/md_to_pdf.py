@@ -64,16 +64,18 @@ class MarkdownToPdfTool(Tool):
                 font-family:  "{font_families}"; 
             }}
             table {{
-                border-collapse: collapse;
-                width: 100%;
-                margin: 8px 0;
+                   border-collapse: collapse;
+                   width: 100%;
+                   margin: 6px 0;
+                   text-align: center; 
             }}
             th, td {{
-                border: 1px solid #ddd;
-                padding: 6px 12px;
+               border: 1px solid #ddd;
+               padding: 4px 8px;
+               vertical-align: middle;
             }}
             th {{
-                background: #f6f8fa;
+               background: #f6f8fa;
             }}
             
         </style>
